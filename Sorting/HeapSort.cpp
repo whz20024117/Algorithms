@@ -55,7 +55,9 @@ public:
 
 int main()
 {
-    std::vector<int> a{22,13,7,57,89,32,40,61};
+    //std::vector<int> a{22,13,7,57,89,32,40,61};
+    std::vector<int> a{3,2,3,1,2,4,5,5,6};
+
 
     HeapSort alg = HeapSort();
     alg.sort(a);
